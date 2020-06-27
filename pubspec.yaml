@@ -10,8 +10,8 @@ environment:
 dependencies:
   js: ^0.6.1+1
   meta: ^1.1.8
-  node_interop: ^1.0.3
-  node_io: ^1.0.1+2
+  node_interop: ^1.1.1
+  node_io: ^1.1.1
   node_http: ^1.0.0
   firebase_admin_interop: ^2.1.0
 
