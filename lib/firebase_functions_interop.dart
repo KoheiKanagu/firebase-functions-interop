@@ -408,6 +408,12 @@ class ScheduleBuilder {
   final js.ScheduleBuilder nativeInstance;
 
   ScheduleBuilder._(this.nativeInstance);
+  
+  /// define a time zone for the scheduler to run
+  ScheduleBuilder timeZone(String timeZone) {
+    nativeInstance.timeZone(timeZone);
+    return this;
+  }
 
   /// Event handler that fires every time a schedule occurs.
   js.CloudFunction onRun(DataEventHandler<Message> handler) {
